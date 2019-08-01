@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.dialogs{
+border: 1px solid red;
+}
+
+.dialogs-item{
+
+}
+
+.messages{
+border: 1px solid green;
+}
+
+.messages-item{
+
+}
+
+.active{
+    color: red;
+}

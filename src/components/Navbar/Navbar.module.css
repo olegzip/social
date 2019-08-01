@@ -1,0 +1,12 @@
+.wrapper {
+    border: 3px solid blue;
+}
+
+.item a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.item a.active{
+    color: red;
+}
