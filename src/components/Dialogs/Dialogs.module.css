@@ -6,17 +6,19 @@
 
 .dialogs{
 border: 1px solid red;
+
 }
 
-.dialogs-item{
-
+.dialogsItem{
+margin: 10px;
 }
 
 .messages{
 border: 1px solid green;
 }
 
-.messages-item{
+.messagesItem{
+    margin: 5px;
 
 }
 

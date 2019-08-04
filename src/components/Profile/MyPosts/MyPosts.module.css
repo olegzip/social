@@ -1,10 +1,14 @@
-.post{
+.post {
     font-style: italic;
     color: blue;
 }
 
-.ava{
+.ava {
     width: 30px;
     height: 30px;
+}
+
+.posts {
+    margin: 10px;
 }
 

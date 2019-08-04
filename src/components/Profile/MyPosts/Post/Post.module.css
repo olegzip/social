@@ -1,6 +1,7 @@
-.post{
+.wrapper{
     font-style: italic;
     color: blue;
+    border: 1px dotted black;
 }
 
 img{
