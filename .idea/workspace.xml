@@ -104,6 +104,7 @@
       <workItem from="1564927680415" duration="15578000" />
       <workItem from="1565031577953" duration="7573000" />
       <workItem from="1565107163834" duration="9011000" />
+      <workItem from="1565204067022" duration="7140000" />
     </task>
     <task id="LOCAL-00001" summary="Dialogs Page added;&#10;Dialogs Page styles added;">
       <created>1564697885260</created>
@@ -148,7 +149,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/index.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

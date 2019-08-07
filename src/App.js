@@ -19,8 +19,7 @@ function App(props) {
         <Route path='/profile'
                render={() => <Profile
                  profilePageState={props.state.profilePage}
-                 addPost={props.addPost}
-                 updateNewPostText={props.updateNewPostText}/>} />
+                 dispatch={props.dispatch} />} />
       </div>
       <div className="ads"> ads</div>
       <div className="footer">footer</div>
