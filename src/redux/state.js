@@ -1,6 +1,7 @@
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 const UPDATE_NEW_MESSAGE_BODY = 'UPDATE_NEW_MESSAGE_BODY';
+const SEND_MESSAGE = 'SEND_MESSAGE';
 
 
 
@@ -61,6 +62,11 @@ let store = {
         this._state.dialogsPage.newMessageBody = action.messageBody;
         this._callSubscriber(this._state);
         break;
+      case SEND_MESSAGE:
+        let messageBody = this.state.dialogsPage.newMessageBody;
+        this.state.dialogsPage.newMessageBody = '';
+        this._state.dialogsPage.messages.push({id: this._state.dialogsPage.messages.length + 1, message: messageBody});
+        break;
       default:
         return null;
     }
@@ -75,6 +81,8 @@ export const updateNewPostTextActionCreator = (text) => (
     newPostText: text
   }
 );
+
+export const sendMessageCreator = () => ({type: ADD_POST});
 
 export default store;
 window.store = store;

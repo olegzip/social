@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0118be7b-5f68-4d1f-8c4c-32a9b87ca84b" name="Default Changelist" comment="" />
+    <list default="true" id="0118be7b-5f68-4d1f-8c4c-32a9b87ca84b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -99,8 +102,8 @@
       <workItem from="1565031577953" duration="7573000" />
       <workItem from="1565107163834" duration="9011000" />
       <workItem from="1565204067022" duration="7231000" />
-      <workItem from="1565281716118" duration="8419000" />
-      <workItem from="1565389271556" duration="279000" />
+      <workItem from="1565281716118" duration="8499000" />
+      <workItem from="1565365547636" duration="3631000" />
     </task>
     <task id="LOCAL-00001" summary="Dialogs Page added;&#10;Dialogs Page styles added;">
       <created>1564697885260</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565215527376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dialogs page: added some new actions">
+      <created>1565300377532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565300377532</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +156,8 @@
     <MESSAGE value="Dialogs Page added;&#10;Dialogs Page styles added;" />
     <MESSAGE value="Local state added. Profile, Dialogs refactored" />
     <MESSAGE value="learning dispatch(), actions, observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning dispatch(), actions, observer pattern" />
+    <MESSAGE value="Dialogs page: added some new actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialogs page: added some new actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
