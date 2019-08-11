@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import {Route} from "react-router-dom";
-import {updateNewPostText} from "./redux/state";
 
 function App(props) {
   return (
@@ -14,12 +13,11 @@ function App(props) {
       <Navbar/>
       <div>
         <Route path='/dialogs'
-               render={() => <Dialogs
-                 state={props.state.dialogsPage}/>}/>
+               render={() => <Dialogs store={props.store}/>}/>
         <Route path='/profile'
                render={() => <Profile
                  profilePageState={props.state.profilePage}
-                 dispatch={props.dispatch} />} />
+                 dispatch={props.dispatch}/>}/>
       </div>
       <div className="ads"> ads</div>
       <div className="footer">footer</div>
