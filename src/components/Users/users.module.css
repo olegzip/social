@@ -1,0 +1,15 @@
+.selectedPage{
+    color: red;
+    font-weight: 900;
+}
+
+span{
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.paginatorWrapper{
+    width: 600px;
+    margin: 0 auto;
+}

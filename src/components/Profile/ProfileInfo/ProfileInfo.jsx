@@ -1,17 +1,23 @@
 import React from 'react';
 import styles from './ProfileInfo.module.css';
+import Preloader from "../../common/Preloader/Preloader";
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => {
+  
+  if(!props.profile) {
+    return <Preloader/>
+  }
+  
   return (
     <div className={styles.wrapper}>
       <div>
         <img
-          src="https://images.unsplash.com/photo-1517219039361-66f283bce5db?ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80"
+          className={styles.avatarBig}
+          src={props.profile.photos.large}
           alt="img"/>
       </div>
-      <div>
-        Ava and Description
-      </div>
+      <h2>{props.profile.fullName}</h2>
+      <h4>{props.profile.aboutMe}</h4>
     </div>
   )
 };
