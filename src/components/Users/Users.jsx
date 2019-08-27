@@ -20,7 +20,6 @@ const Users = (props) => {
             key={p}
             className={(props.currentPage === p) ? styles.selectedPage : null}
             onClick={() => {
-            debugger;
               props.onPageChanged(p)
             }}>
           {p}

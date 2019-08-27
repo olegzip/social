@@ -29,7 +29,7 @@ const App = () => {
       <div className="ads">ADS</div>
       <div className="footer">FOOTER</div>
     </div>
-  );
+  )
 }
 
 export default App;
